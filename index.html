@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola-Basilio-de-Luca-App</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+     
+<body>
+    <header class="cabeçalho">
+        <div class="container">
+           <imput type="checkbox" id="menu" class="container__botão">
+           <label for="menu">
+               <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+        </label>
+        <ul class="lista-menu">
+            <li class="lista-menu__titulo">Categorias</li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Progamação</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Front-end</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Infraestrutura</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Business</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Desing & UX</a>
+            </li>
+        </ul>
+        <img src="img/Logo.svg" alt="icone do colegio civico militar.png" class="container__imagem">
+    </div>
+    <div class="container">
+         <a href="#"><img src="icone do colegio civico militar.png" alt="icone do colegio civico militar" class="container__imagem"></a>
+         <a href="#"><img src="ingrenagem.png" alt="ingrenagem" class="container__imagem"></a>
+      </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo"> quem são nossos estudantes?></h2>
+        <p class="banner__texto"> Dênis</p>
+        <imput type="search" class="banner__pesquisa" placeholder="qual o proximo estudante?"></imput>
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel__título">Novos Alunos</h2>
+        <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+    </section>
+      <h1 Sobre a Escola
+      A escola Alura foi fundada em 2010 com o objetivo de ensinar Pensamento Computacional através de programação. 
+      A turma mais famosa é a Segunda Série A. 
+      Uma turma diversa e engajada, as vezes, um pouco bagunnceira, mas que entrega exelentes resultados!></h1>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <const swiper = new Swiper("swiper" {
+        spaceBetween: 10,
+        slidesParView: 3,
+    });
+    </body>
+</html>
